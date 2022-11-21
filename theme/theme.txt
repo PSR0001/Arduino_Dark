@@ -9,10 +9,6 @@
 #BACKGROUND Medium      #20212B
 #BACKGROUND Normal      #282a36
 
-
-
-
-
 # GUI - STATUS
 # Status above the console
 status.notice.fgcolor   = #50fa7b
@@ -35,7 +31,7 @@ header.text.font                = Consolas, plain, 12
 console.font            = Consolas, plain, 11
 console.font.macosx     = Consolas, plain, 11
 console.color           = #000000
-console.output.color    = #140cfa
+console.output.color    = #1711d1
 console.error.color     = #ff5555
 
 # GUI - BUTTONS
@@ -74,7 +70,7 @@ linestatus.height   = 17
 # EDITOR - BACKGROUND
 # Foreground & Background colors
 editor.fgcolor  = #f8f8f2
-editor.bgcolor  = #282a36
+editor.bgcolor  = #272c35
 
 # EDITOR - CURRENT LINE
 # Highlighting for the current line
@@ -83,7 +79,7 @@ editor.linehighlight.color  = #44475a
 
 # EDITOR - CARET
 # Caret blinking & color
-editor.caret.color = #f8f8f2
+editor.caret.color = #0e5de8
 
 # EDITOR - EXTERNAL EDITOR
 # Background color for when 'external editor' is enabled
@@ -108,39 +104,48 @@ editor.eolmarkers.color     = #50fa7b
 editor.brackethighlight         = true
 editor.brackethighlight.color   = #f8f8f2
 
-
-
-
-
 # TEXT - FUNCTIONS
 # Function keywords color
-editor.keyword1.style   = #ffb86c, bold
-editor.data_type.style  = #ffb86c, bold
+editor.keyword1.style   = #aab2c0, bold
+editor.data_type.style  = #aab2c0, bold
 
 # TEXT - METHODS
 # Method keywords color
-editor.keyword2.style   = #c373c9, plain
-editor.function.style   = #c373c9, plain
+editor.keyword2.style   = #46aef4, plain
+editor.function.style   = #46aef4, plain
+#5cbcd1
 
 # TEXT - STRUCTURES
 # Structures keywords color
 editor.keyword3.style       = #50fa7b, plain
 editor.reserved_word.style  = #50fa7b, plain
 
-# TEXT - LITERALS
-# Literals keywords color
-editor.literal1.style                       = #e1b86e, plain
-editor.literal2.style                       = #e1b86e, plain
-editor.variable.style                       = #8be9fd, plain
-editor.reserved_word_2.style                = #8be9fd, plain
-editor.literal_boolean.style                = #ff5555, plain
-editor.literal_char.style                   = #96c374, plain
-editor.literal_string_double_quote.style    = #96c374, plain
-editor.preprocessor.style                   = #c373c9, plain
+# TEXT LITERALS
+editor.literal2.style = #61AFEF,plain
+editor.variable.style = #51acc0,plain
+
+#voilet color like static const char
+editor.reserved_word_2.style = #d372e3,plain
+
+# true false
+editor.literal_boolean.style = #f7ad69,plain
+
+# "hello"
+editor.literal_char.style = #9bdc7c,plain
+editor.literal_string_double_quote.style = #9bdc7c,plain
+
+# define 
+editor.preprocessor.style = #98C379,plain
+
+
+
+
+
+
 
 # TEXT - LINKS
 # Styling of links
-editor.url.style = #8be9fd, underlined
+editor.url.style = #0e07d9, underlined
 
 # TEXT - OPERATORS
 # Operators color, + - = / etc.
@@ -154,4 +159,4 @@ editor.label.style = #7e7e7e, bold
 # TEXT - COMMENTS
 # Colors of the two comment styles
 editor.comment1.style   = #6272a4, plain
-editor.comment2.style   = #6272a4, plain
+editor.comment2.style   = #cccccc, plain

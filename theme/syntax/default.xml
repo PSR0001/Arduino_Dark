@@ -11,7 +11,7 @@
    <!--<baseFont family="..." size="13"/>-->
    
    <!--  General editor colors. -->
-   <background color="282a36"/>
+   <background color="272c35"/>
    <caret color="f8f8f2"/>
    <selection fg="44475a" bg="282a36" />
    <currentLineHighlight color="44475a" fade="false"/>
@@ -34,7 +34,7 @@
    
    <!-- Syntax tokens. -->
    <tokenStyles>
-      <style token="IDENTIFIER" fg="000000"/>
+      <style token="IDENTIFIER" fg="52afbf"/>
       <style token="DATA_TYPE" fg="ffb86c" bold="true"/>
       <style token="FUNCTION" fg="ffb86c"/>
       <style token="VARIABLE" fg="8be9fd" bold="true"/>
@@ -49,10 +49,10 @@
       <style token="COMMENT_KEYWORD" fg="6272a4" bold="true"/>
       <style token="COMMENT_MARKUP" fg="6272a4"/>
       <style token="LITERAL_BOOLEAN" fg="ff5555" bold="false"/>
-      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="ff5555"/>
-      <style token="LITERAL_NUMBER_FLOAT" fg="ff5555"/>
+      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="f7ad69"/>
+      <style token="LITERAL_NUMBER_FLOAT" fg="f7ad69"/>
       <style token="LITERAL_NUMBER_HEXADECIMAL" fg="ff5555"/>
-      <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="f1fa8c"/>
+      <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="6c6cf0"/>
       <style token="LITERAL_CHAR" fg="f1fa8c"/>
       <style token="LITERAL_BACKQUOTE" fg="f1fa8c"/>
 
@@ -61,7 +61,7 @@
       <style token="SEPARATOR" fg="bd93f9" />
       <style token="WHITESPACE" fg="000000"/>
       <style token="ERROR_IDENTIFIER" fg="ff5555" />
-      <style token="ERROR_NUMBER_FORMAT" fg="ff5555" />
+      <style token="ERROR_NUMBER_FORMAT" fg="f2a622" />
       <style token="ERROR_STRING_DOUBLE" fg="ff5555" />
       <style token="ERROR_CHAR" fg="ff5555" />
    </tokenStyles>
